@@ -1,0 +1,14 @@
+.boton{
+        background-color: rgb(42, 71, 165); /*color del fondo */
+        color: blanchedalmond; /*color del texto*/
+        padding: 12px 24px; /*espacio interno del boton */
+        font-size: 16px; /*tamaño de la letra*/
+        border: none; /*quita el borde */
+        border-radius: 5px;
+        cursor: pointer; /*mano cuando pasa el mouse*/
+        transition: background-color 0.3s;
+
+    }
+.boton:hover{
+    background-color: #45a049;
+}
