@@ -12,3 +12,18 @@
 .boton:hover{
     background-color: #45a049;
 }
+
+.foto-circular {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.foto-circular img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
